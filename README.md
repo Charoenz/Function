@@ -1,0 +1,2 @@
+# Function
+function updateGameArea() {   myGameArea.clear();   myGamePiece.speedX = 0;   myGamePiece.speedY = 0;   if (myGameArea.key &amp;&amp; myGameArea.key == 37) {myGamePiece.speedX = -1; }   if (myGameArea.key &amp;&amp; myGameArea.key == 39) {myGamePiece.speedX = 1; }   if (myGameArea.key &amp;&amp; myGameArea.key == 38) {myGamePiece.speedY = -1; }   if (myGameArea.key &amp;&amp; myGameArea.key == 40) {myGamePiece.speedY = 1; }   myGamePiece.newPos();   myGamePiece.update(); }
